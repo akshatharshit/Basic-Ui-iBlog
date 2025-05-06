@@ -1,0 +1,157 @@
+.navigation{
+  /* height:  74px; */
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  font-size: 32px;
+  text-decoration: none;
+  color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.nav-left ul li{
+   list-style: none;
+   margin: 0 14px;
+   
+}
+
+.nav-left ul li a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  /* transition: all 0.3s ease-in-out; */
+}
+
+.nav-left ul{
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  margin: 0 77px;
+}
+
+.nav-left{
+  display: flex;
+  font-size: 20px;
+}
+
+.content-right{
+  display: flex;
+     align-items: center;
+     justify-content: center;
+    
+}
+
+.content-right img{
+     height: 310px;
+     border: 3px solid black;
+     border-radius: 200px;
+     
+}
+
+.content-left{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     overflow-y: auto;
+     
+}
+
+.content{
+  height: 395px;
+    display: flex;
+    margin-top: 32px; 
+    padding: 9px;
+    position: relative;
+}
+
+.content::after{
+  content: "";
+  background-image: url("../img/11.svg");
+  position: absolute;
+  width:100% ;
+  height: inherit;
+  opacity: 0.15;
+  border-radius: 12px;
+  z-index: -1;
+}
+
+.content .p{
+  margin-left: 24px;
+}
+
+.nav-left ul li a:hover{
+   color: brown;
+    font-weight: bolder;
+}
+
+.home-articles{
+  padding-top: 12px;
+  background-color: rgb(234, 227, 231);
+  margin-top: 10px;
+  border-radius: 25px;
+  position: relative;
+}
+
+.year-box{
+  position: absolute;
+  margin-top: 25px;
+  right: 120px;
+  width: 125px;
+  height: 255px;
+  
+}
+
+.year-box div{
+  margin: 12px 0px;
+}
+
+.m1{
+  margin-left: 12px;
+}
+
+.home-article{
+   display: flex;
+   padding: 25px;
+}
+
+.home-article img{
+  width: 300px;
+}
+
+.home-article-content{
+  align-self: center;
+  margin: 25px;
+}
+
+.home-article-content a{
+  text-decoration: none;
+  color: black;
+}
+
+.footer{
+    height: 50px;
+    background-color: rgb(24, 11, 11);
+    display: flex;
+    color:  white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer a{
+  color: white;
+}
+
+.new{
+  display: none;
+}

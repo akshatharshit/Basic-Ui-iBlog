@@ -1,0 +1,16 @@
+.post-img{
+    height: 400px;
+    overflow: hidden;
+}
+.post-img img{
+  width: 100%;
+}
+.blog-post-content{
+  margin-bottom: 24px;
+  margin-top: 12px;
+}
+
+.blog-post-content h1{
+  text-align: center;
+}
+

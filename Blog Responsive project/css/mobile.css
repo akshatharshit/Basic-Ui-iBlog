@@ -1,0 +1,50 @@
+@media screen and (max-width: 1100px){
+    .navigation{
+        flex-direction: column;
+        margin-bottom: 24px;
+    }
+    .nav-left{
+        flex-direction: column;
+        text-align: center;
+        padding: 16px;
+        margin-bottom: px;
+    }
+    .logo{
+        margin-bottom: 12px;
+    }
+
+    .form-input{
+        width: 50%;
+    }
+    .content{
+        height: 100%;
+    }
+    .content-right img{
+       height: 0;
+       width: 0;
+    }
+
+    
+    .year-box {
+        top: 0;
+        left: 60;
+        margin-top: 0px;
+        display: flex;
+        font-size: 14px;
+
+    }
+
+    .new{
+        display: none;
+    }
+
+    .home-article{
+        flex-direction: column;
+    }
+    .home-article img{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    
+}
